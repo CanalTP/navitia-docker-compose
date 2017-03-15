@@ -1,3 +1,8 @@
+# This project is deprecated
+You should use use https://github.com/CanalTP/navitia-docker-compose
+Local execution of Artemis still use this project.. WIP...
+
+
 # nav2_docker_compose
 docker compose with micro containers, one for each navitia's service
 
