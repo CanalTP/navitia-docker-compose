@@ -18,6 +18,7 @@ RUN apt-get update && \
                                 libboost-serialization1.55.0 \
                                 libboost-system1.55.0 \
                                 libboost-thread1.55.0 \
+                                libboost-test1.55.0 \
                                 python-dev \
                                 python-pip \
                                 git \
