@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 services:
   instances_configurator:
@@ -47,6 +47,8 @@ services:
     image: navitia/tyr-worker:${TAG}
     volumes_from:
       - tyr_beat
+    deploy:
+      - replicas: 1
     environment:
       - TYR_CITIES_DATABASE_URI=postgresql://navitia:navitia@cities_database/cities
       - TYR_CITIES_OSM_FILE_PATH=/srv/ed/
